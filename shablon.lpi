@@ -40,7 +40,6 @@
             <CompilerPath Value="$(CompPath)"/>
             <ExecuteAfter>
               <Command Value="build.bat"/>
-              <CompileReasons Run="False"/>
             </ExecuteAfter>
           </Other>
         </CompilerOptions>
