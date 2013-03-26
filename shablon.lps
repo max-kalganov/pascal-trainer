@@ -3,8 +3,8 @@
   <ProjectSession>
     <PathDelim Value="\"/>
     <Version Value="9"/>
-    <BuildModes Active="Default"/>
-    <Units Count="2">
+    <BuildModes Active="release"/>
+    <Units Count="3">
       <Unit0>
         <Filename Value="shablon.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -12,22 +12,27 @@
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="72"/>
-        <CursorPos X="52" Y="92"/>
-        <FoldState Value=" TLmY7EW"/>
-        <UsageCount Value="24"/>
+        <TopLine Value="29"/>
+        <CursorPos X="36" Y="120"/>
+        <FoldState Value=" TLW2.o"/>
+        <UsageCount Value="30"/>
         <Bookmarks Count="1">
           <Item0 X="24" Y="221" ID="0"/>
         </Bookmarks>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
+        <Filename Value="questions.txt"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit1>
+      <Unit2>
         <Filename Value="Шаблон.pas"/>
         <WindowIndex Value="0"/>
         <TopLine Value="117"/>
         <CursorPos X="6" Y="157"/>
-        <UsageCount Value="10"/>
-      </Unit1>
+        <UsageCount Value="9"/>
+      </Unit2>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
@@ -35,128 +40,128 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="61" Column="1" TopLine="27"/>
+        <Caret Line="73" Column="1" TopLine="39"/>
       </Position1>
       <Position2>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="63" Column="1" TopLine="29"/>
+        <Caret Line="75" Column="1" TopLine="41"/>
       </Position2>
       <Position3>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="65" Column="1" TopLine="31"/>
+        <Caret Line="77" Column="1" TopLine="43"/>
       </Position3>
       <Position4>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="67" Column="1" TopLine="33"/>
+        <Caret Line="79" Column="1" TopLine="45"/>
       </Position4>
       <Position5>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="69" Column="1" TopLine="35"/>
+        <Caret Line="81" Column="1" TopLine="47"/>
       </Position5>
       <Position6>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="71" Column="1" TopLine="37"/>
+        <Caret Line="83" Column="1" TopLine="49"/>
       </Position6>
       <Position7>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="73" Column="1" TopLine="39"/>
+        <Caret Line="85" Column="1" TopLine="51"/>
       </Position7>
       <Position8>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="75" Column="1" TopLine="41"/>
+        <Caret Line="86" Column="1" TopLine="52"/>
       </Position8>
       <Position9>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="77" Column="1" TopLine="43"/>
+        <Caret Line="157" Column="3" TopLine="121"/>
       </Position9>
       <Position10>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="79" Column="1" TopLine="45"/>
+        <Caret Line="174" Column="5" TopLine="131"/>
       </Position10>
       <Position11>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="81" Column="1" TopLine="47"/>
+        <Caret Line="34" Column="20" TopLine="10"/>
       </Position11>
       <Position12>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="83" Column="1" TopLine="49"/>
+        <Caret Line="32" Column="2" TopLine="10"/>
       </Position12>
       <Position13>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="85" Column="1" TopLine="51"/>
+        <Caret Line="154" Column="25" TopLine="124"/>
       </Position13>
       <Position14>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="86" Column="1" TopLine="52"/>
+        <Caret Line="105" Column="53" TopLine="94"/>
       </Position14>
       <Position15>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="157" Column="3" TopLine="121"/>
+        <Caret Line="107" Column="55" TopLine="87"/>
       </Position15>
       <Position16>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="174" Column="5" TopLine="131"/>
+        <Caret Line="109" Column="94" TopLine="92"/>
       </Position16>
       <Position17>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="34" Column="20" TopLine="10"/>
+        <Caret Line="128" Column="1" TopLine="93"/>
       </Position17>
       <Position18>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="32" Column="2" TopLine="10"/>
+        <Caret Line="43" Column="1" TopLine="22"/>
       </Position18>
       <Position19>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="154" Column="25" TopLine="124"/>
+        <Caret Line="192" Column="10" TopLine="139"/>
       </Position19>
       <Position20>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="79" Column="23" TopLine="94"/>
+        <Caret Line="98" Column="11" TopLine="67"/>
       </Position20>
       <Position21>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="105" Column="53" TopLine="94"/>
+        <Caret Line="15" Column="1" TopLine="1"/>
       </Position21>
       <Position22>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="107" Column="55" TopLine="87"/>
+        <Caret Line="91" Column="9" TopLine="70"/>
       </Position22>
       <Position23>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="109" Column="94" TopLine="92"/>
+        <Caret Line="103" Column="30" TopLine="79"/>
       </Position23>
       <Position24>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="128" Column="1" TopLine="93"/>
+        <Caret Line="125" Column="23" TopLine="19"/>
       </Position24>
       <Position25>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="43" Column="1" TopLine="22"/>
+        <Caret Line="29" Column="16" TopLine="8"/>
       </Position25>
       <Position26>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="192" Column="10" TopLine="139"/>
+        <Caret Line="28" Column="40" TopLine="8"/>
       </Position26>
       <Position27>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="98" Column="11" TopLine="67"/>
+        <Caret Line="29" Column="29" TopLine="8"/>
       </Position27>
       <Position28>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="15" Column="1" TopLine="1"/>
+        <Caret Line="117" Column="1" TopLine="25"/>
       </Position28>
       <Position29>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="91" Column="9" TopLine="70"/>
+        <Caret Line="18" Column="27" TopLine="7"/>
       </Position29>
       <Position30>
         <Filename Value="shablon.lpr"/>
-        <Caret Line="103" Column="30" TopLine="79"/>
+        <Caret Line="106" Column="24" TopLine="29"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>
   <Debugging>
-    <Watches Count="4">
+    <Watches Count="5">
       <Item1>
         <Expression Value="h"/>
       </Item1>
@@ -169,6 +174,9 @@
       <Item4>
         <Expression Value="r"/>
       </Item4>
+      <Item5>
+        <Expression Value="questions"/>
+      </Item5>
     </Watches>
   </Debugging>
 </CONFIG>

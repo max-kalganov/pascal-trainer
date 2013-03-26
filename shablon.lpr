@@ -1,6 +1,6 @@
 program shablon;
 
-{$mode objfpc}{$H+}
+{$mode objfpc}{$H+}{$R+}
 
 uses
   {$IFDEF UNIX}{$IFDEF UseCThreads}
@@ -12,18 +12,31 @@ uses
 var  q,a,b,c,t,g,i,j,o,p,r,procent:integer ;  h:real; flag:boolean;
 mas:array [1..5] of real ;
 questions: array [1..17, 1..2] of string;
+f_in :text ;
+
 
 label 1,4,5,6;
 
 
 procedure InitQuestions ();
 begin
+  assign (f_in,'questions.txt');
+  reset (f_in);
+  for i:=1 to 17 do  // кол-во вопросов
+  begin
+    for j:=1 to 2 do
+    begin
+      readln (f_in,questions [i,j]);
+    end;
+  end;
+  close (f_in);
+  {
      questions[1, 1] := 'var';
      questions[1, 2] := 'спомощью этой фунции вы объявляете переменную';
      questions[2, 1] := 'while';
      questions[2, 2] := 'спомощью этой фунции вы объявляете цикл while';
 
-{
+
             if h=3 then
               write('for-');
             if h=3.5 then
@@ -85,8 +98,9 @@ begin
             if h=17.5 then
               writeln('эта фунция выводит любое число из задоного раздела ') ;
               }
+  end;
 
-end;
+
 
 function FormatQuestion (anQuestion: String) : String;
 begin
@@ -106,6 +120,7 @@ begin
      readln();
      exit;
 
+     //test1
 
  writeln ('Здесь я и Макс попробуем помочь вам с пониманием Pascal ,если вы нашли какую-нибудь ошибку обращайтесь к нам )))');
     c:=1;
