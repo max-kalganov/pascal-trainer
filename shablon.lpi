@@ -55,7 +55,12 @@
         <FormatVersion Value="1"/>
       </local>
     </RunParams>
-    <Units Count="2">
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="3">
       <Unit0>
         <Filename Value="shablon.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -65,6 +70,14 @@
         <Filename Value="questions.txt"/>
         <IsPartOfProject Value="True"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="test_form.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="test_form"/>
+      </Unit2>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
